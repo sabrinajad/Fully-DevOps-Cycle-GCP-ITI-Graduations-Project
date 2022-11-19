@@ -5,8 +5,9 @@ Building infrastructure IaC on GCP using Terraform to Build The Following :
 ## Firewalls 
 ## NAT  and Router
 ## GKE [ Google Kubernetes Platform ] 
-private cluster 
-## vm (at the same vpc of the worker node )
+ private cluster. 
+## vm 
+at the same vpc of the worker node.
 ## General details:
 * SSH on the vm to connect with cluster( authorize the control node)
 then create a service account and with owner role and generate access key
@@ -20,7 +21,7 @@ handling Jenkins login
 * 2- push on docker hub registry.
 * 3- Deployment on the worker nods at the GKE Cluster.
 ## Future modifications:
-* using modules strategies to build the infrastructure 
+ using modules strategies to build the infrastructure 
 
 
 
