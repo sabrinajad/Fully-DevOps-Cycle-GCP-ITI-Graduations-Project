@@ -1,7 +1,8 @@
 # Terraform-GCP-Jenkins-Final
 * [General info](#general-info)
 Building infrastructure IaC on GCP using Terraform to Build The Following : 
-## Network (vpc and 2 subnets)  
+## Network 
+vpc and 2 subnets  
 ## Firewalls 
 ## NAT  and Router
 ## GKE [ Google Kubernetes Platform ] 
