@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sabrin-website
+spec:
+  selector:
+    matchLabels:
+      app: website
+  replicas: 2 
+  template:
+    metadata:
+      labels:
+        app: website
+    spec:
+      containers:
+      - name: website
+        image: sabrin9696/final:${BUILD_NUMBER}
+        ports:
+        - containerPort: 80
