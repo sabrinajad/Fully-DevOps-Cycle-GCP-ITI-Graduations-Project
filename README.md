@@ -1,9 +1,9 @@
 # Terraform-GKE-Jenkins
-## - Create GKE using terraform
+## - Create GKE using terraform.
 
-## - Deploy Jenkins (master & slave) on GKE
+## - Deploy Jenkins (master & slave) on GKE.
 
-## - Create a pipeline using Jenkins to build image and push it to docker hub and deploy moviedb web app on GKE the pipeline triggered by GitHub_hook
+## - Create a pipeline using Jenkins to build image and push it to docker hub and deploy simple web app on GKE the pipeline triggered by GitHub_hook.
 _____________________________________________________________________________________________________________
 ## Building infrastructure IaC on GCP using Terraform to Build The Following : 
 * Network 
