@@ -3,7 +3,7 @@
 
 ## - Deploy Jenkins (master & slave) on GKE
 
-## - create a pipeline using Jenkins to build image and push it to docker hub and deploy moviedb web app on GKE the pipeline triggered by GitHub_hook
+## - Create a pipeline using Jenkins to build image and push it to docker hub and deploy moviedb web app on GKE the pipeline triggered by GitHub_hook
 _____________________________________________________________________________________________________________
 ## Building infrastructure IaC on GCP using Terraform to Build The Following : 
 * Network 
@@ -12,7 +12,7 @@ vpc and 2 subnets
 * NAT  and Router
 * GKE [ Google Kubernetes Platform ] 
  private cluster. 
-* vm 
+* VM
 at the same vpc of the worker node.
 ## General details:
 * SSH on the vm to connect with cluster( authorize the control node)
@@ -24,10 +24,10 @@ kubectl apply -f (the name of deployment file).yaml
 handling Jenkins login
 ## Start work on the jenkins Pipelines:
 * 1- Build from docker file (by using webhook mechanism to trigger the build of a Jenkins project in response to a commit pushed to a Git repository).
-* 2- push on docker hub registry.
+* 2- Push on docker hub registry.
 * 3- Deployment on the worker nods at the GKE Cluster.
 ## Future modifications:
- using modules strategies to build the infrastructure 
+ Using modules strategies to build the infrastructure 
 
 
 
