@@ -1,4 +1,4 @@
-# Terraform-GCP-Jenkins-Final
+# Terraform-GKE-Jenkins
 ## - Create GKE using terraform
 
 ## - Deploy Jenkins (master & slave) on GKE
