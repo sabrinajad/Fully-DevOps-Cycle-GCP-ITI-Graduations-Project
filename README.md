@@ -3,6 +3,7 @@
 . Implement secure Kubernetes cluster
 . Deploy and configure Jenkins on Kubernetes.
 . Deploy backend application on Kubernetes using Jenkins pipeline .
+![alt text](Overview.jpeg)
 ____________________________________________________________________________________________________________
 ## - `1- Create GKE using terraform.`
 ### Building infrastructure IaC on GCP using Terraform to Build The Following : 
