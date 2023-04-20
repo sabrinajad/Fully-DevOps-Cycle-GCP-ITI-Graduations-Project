@@ -6,12 +6,12 @@
 ____________________________________________________________________________________________________________
 ## - `1- Create GKE using terraform.`
 ### Building infrastructure IaC on GCP using Terraform to Build The Following : 
-#### Network 
+#### -Network 
 - vpc and 2 subnets  
 - Firewalls 
 - NAT  and Router
-#### Private GKE [ Google Kubernetes Platform ] Cluster. 
-#### VM
+#### -Private GKE [ Google Kubernetes Platform ] Cluster. 
+#### -VM
 at the same vpc of the worker node.
  - SSH on the vm to connect with cluster( authorize the control node)
 then create a service account with owner role and generate access key
