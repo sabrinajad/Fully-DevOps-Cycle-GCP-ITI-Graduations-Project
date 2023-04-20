@@ -2,7 +2,7 @@
 # `Deploy backend application on kubernetes cluster using CI/CD jenkins pipeline  triggered by GitHub_hook using the following steps and high-level diagram :`
 . Implement secure Kubernetes cluster
 . Deploy and configure Jenkins on Kubernetes.
-. Deploy backend application on Kubernetes using Jenkins pipeline.
+. Deploy backend application on Kubernetes using Jenkins pipeline .
 ____________________________________________________________________________________________________________
 ## - `1- Create GKE using terraform.`
 ### Building infrastructure IaC on GCP using Terraform to Build The Following : 
